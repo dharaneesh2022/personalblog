@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(93, 93, 93);
+}
+.gallery {
+    display: grid;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img.four-grid-cells {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+    border-radius: 25px;
+}
+.bird
+{
+    border-radius: 25px;  
+}
+.wide-image {
+    grid-column: span 2 / auto;
+    border-radius: 25px;
+}

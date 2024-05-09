@@ -1,0 +1,25 @@
+.home{
+    background-image: url('C:/Users/dhara/OneDrive/Desktop/academy/Personal blog/mern zip/mern/mern/mern/personalblog/src/public/moon_2.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 774px;
+    width: 1536px;
+    padding-left: 200px;
+    padding-right: 300px;
+    padding: 150px 250px;
+    justify-content: space-between;
+    
+
+}
+.title{
+    padding: 0px 150px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+
+}
+.content{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left:135px;
+}
